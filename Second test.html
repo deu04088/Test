@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Second</title>
+    <style type="text/css">
+        a:link { color: black; text-decoration: none;}
+        a:visited { color: black; text-decoration: none;}
+        a:hover { color: black; }
+
+        div {
+            font-weight: bold;
+            font-size: x-large;
+        }
+        #container {
+            margin:0 auto;
+            width: 1500px;
+            height:1700px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        #head{
+            width: 1499px;
+            height: 100px;
+            background-color: white;
+            margin: 20px;
+            text-align: center;
+            border-bottom: solid 1px black;
+        }
+        #body {
+            width: 1499px;
+            height: 1300px;
+            background-color: white;
+            margin: 20px;
+            text-align: center;
+        }
+        #A {
+            width: 1400px;
+            height: 400px;
+            background-color: gray;
+            margin: 20px;
+            text-align: center;
+        }
+        #B {
+            width: 1400px;
+            height: 400px;
+            background-color: gray;
+            margin: 20px;
+            text-align: center;
+        }
+        #C {
+            width: 1400px;
+            height: 400px;
+            background-color: gray;
+            margin: 20px;
+            text-align: center;
+        }
+        #foot{
+            width: 1499px;
+            height: 100px;
+            background-color: white;
+            margin: 20px;
+            text-align: center;
+            border-top: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="head">
+        <p style="font-size:40px">
+            <a name="Hello! This page is linked by practive.html">
+                <Strong>Hello! This page is linked by practive.html</Strong>
+            </a>
+        </p>
+    </div>
+    <div id="body">
+        <div id="A">
+            <a href="#B">A</a>
+        </div>
+        <div id="B">
+            <a name="B">
+                <a href="#C">B</a>
+            </a>
+        </div>
+        <div id="C">
+            <a name="C">
+                <a href="#Hello! This page is linked by practive.html">C</a>
+        </div>
+    </div>
+    <div id="foot">
+        <p style="font-size:20px">
+            <a href="file:///D:/박주영/과제/HTML/Untitled-7.html">
+                <Strong>If you want to go previous page, click this link!</Strong>
+            </a>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
