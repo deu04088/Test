@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First</title>
+    <style type="text/css">
+        a:link { color: black; text-decoration: none;}
+        a:visited { color: black; text-decoration: none;}
+        a:hover { color: black; }
+        div {
+            font-weight: bold;
+            font-size: x-large;
+            border: solid 1px black;
+        }
+        #container {
+            margin: 0 auto;
+            width: 604px;
+            height:806px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        #Header {
+            width: 603px;
+            height: 100px;
+            background-color: white;
+            text-align: center;
+        }
+        #Aside {
+            width: 100px;
+            height: 600px;
+            background-color: white;
+            text-align: center;
+        }
+        #Section {
+            width: 500px;
+            height: 600px;
+            background-color: white;
+            text-align: center;
+        }
+        #Naver {
+            width: 400px;
+            height: 100px;
+            background-color: gray;
+            margin: 50px;
+            text-align: center;
+        }
+        #Daum {
+            width: 400px;
+            height: 100px;
+            background-color: gray;
+            margin: 50px;
+            text-align: center;
+        }
+        #GoToLink {
+            width: 400px;
+            height: 100px;
+            background-color: gray;
+            margin: 50px;
+            text-align: center;
+        }
+        #Footer {
+            width: 603px;
+            height: 100px;
+            background-color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="Header">Header</div>
+    <div id="Aside">Aside</div>
+    <div id="Section">Section
+        <a href="#" onclick="window.open('https://www.naver.com/')" >
+            <div id="Naver">Naver</div>
+        </a>
+        <a href="#" onclick="window.open('https://www.daum.net/')">
+            <div id="Daum">Daum</div>
+        </a>
+        <a href="file:///D:/박주영/과제/HTML/Untitled-8.html">
+            <div id="GoToLink">GoToLink</div>
+        </a>
+    </div>
+    <div id="Footer">Footer</div>
+</div>
+</body>
+</html>
